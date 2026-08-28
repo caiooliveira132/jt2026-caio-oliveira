@@ -12,5 +12,10 @@ venv/
 # Dados brutos (não commitar o repositório de dados clonado)
 jovens-talentos-2026-hackathon-data/
 
+# Vídeo do desafio (entregável é o LINK no Drive, não o arquivo binário)
+*.mp4
+*.mov
+*.avi
+
 # Export da sessão completo é grande mas é entregável — manter commitado
 # (comentado para não excluir acidentalmente)
