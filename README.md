@@ -12,6 +12,7 @@ Desafio Jovens Talentos AI Builder 2026.
 1. **`relatorio.md`** (raiz) — a recomendação final: as 4 perguntas do edital + veredito da tese dos compactos + estimativa de retorno, com números.
 2. **`ai-log/`** — o processo completo: 232 mensagens da sessão OpenCode exportadas em texto (`.md` + `.json`), mais o registro por fase (`fase0..10.md`).
 3. **`output/apresentacao_apoio_video.pptx`** — a apresentação de apoio ao vídeo (9 slides, com os gráficos reais da análise).
+4. **`transcricao_video.md`** — transcrição completa do vídeo (faster-whisper).
 
 ## Estrutura
 
@@ -36,6 +37,7 @@ ai-log/                    # conversas de IA exportadas (processo = 30% da nota)
 relatorio.md               # RECOMENDAÇÃO FINAL
 requirements.txt           # dependências
 data/                      # dados brutos (5 CSVs) — repo autocontido
+transcricao_video.md       # transcrição do vídeo (faster-whisper, pt)
 roteiro-video.md           # teleprompter do vídeo (3 min, palavra por palavra)
 apresentacao_apoio_video.pptx  # apoio visual (na pasta output/)
 PUBLICAR.md                # passo a passo para criar repo público + push
