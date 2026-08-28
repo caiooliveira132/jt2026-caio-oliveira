@@ -6,10 +6,13 @@ Esta pasta é o registro de como a IA foi usada no desafio (30% da avaliação).
 
 | Arquivo | O que é |
 |---|---|
-| `sessao-completa/sessao_desafio.md` | **Conversa inteira** com a IA (170 mensagens), exportada via `opencode export`, em formato de leitura humana. |
+| `sessao-completa/sessao_desafio.md` | **Conversa inteira** com a IA (232 mensagens, toda a jornada do desafio), exportada via `opencode export`, em formato de leitura humana. |
 | `sessao-completa/sessao_desafio.json` | O mesmo export em JSON (formato original da ferramenta). |
-| `fase0.md` … `fase7.md` | Para cada fase, o que foi pedido, o que a IA devolveu, o que eu critiquei/corrigi e os números-chave. |
+| `fase0.md` … `fase10.md` | Para cada fase, o que foi pedido, o que a IA devolveu, o que eu critiquei/corrigi e os números-chave. |
 | `saneamento.md` | Registro rastreável de TODAS as correções de dados (Fase 1). |
+| `LEIA-ME.md` | Este guia. |
+
+> **Como atualizar/reesportar** a sessão (comando): `opencode session list` → pega o ID → `opencode export <ID>`.
 
 ## O que você deveria observar (o processo, não o resultado)
 
@@ -24,4 +27,4 @@ Esta pasta é o registro de como a IA foi usada no desafio (30% da avaliação).
    inteira em `python -m src.faseN`.
 
 ## Para reproduzir
-Cada arquivo `src/faseN_*.py` tem um `__main__` que regenereia os outputs de `output/`.
+Cada arquivo `src/faseN_*.py` tem um `__main__` que regenera os outputs de `output/`.

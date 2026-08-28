@@ -10,7 +10,7 @@ Desafio Jovens Talentos AI Builder 2026.
 ## Como avaliar em 2 cliques
 
 1. **`relatorio.md`** (raiz) — a recomendação final: as 4 perguntas do edital + veredito da tese dos compactos + estimativa de retorno, com números.
-2. **`ai-log/`** — o processo completo: 170 mensagens da sessão OpenCode exportadas em texto (`.md` + `.json`), mais o registro por fase (`fase0..8.md`).
+2. **`ai-log/`** — o processo completo: 232 mensagens da sessão OpenCode exportadas em texto (`.md` + `.json`), mais o registro por fase (`fase0..10.md`).
 3. **`output/apresentacao_apoio_video.pptx`** — a apresentação de apoio ao vídeo (9 slides, com os gráficos reais da análise).
 
 ## Estrutura
@@ -31,7 +31,7 @@ src/                       # código Python reexecutável (Fases 0-10)
 output/                    # todos os outputs organizados por fase
 ai-log/                    # conversas de IA exportadas (processo = 30% da nota)
   sessao-completa/         #   export integral da sessão (md + json)
-  fase0..8.md              #   registro do processo por fase
+  fase0..10.md           #   registro do processo por fase
   saneamento.md            #   registro de saneamento
 relatorio.md               # RECOMENDAÇÃO FINAL
 requirements.txt           # dependências
@@ -60,9 +60,9 @@ python -m src.gerar_apresentacao  # regenera o pptx de apoio ao vídeo
 
 | Entregável | Onde está | Status |
 |---|---|---|
-| Repositório público | este repo (`jt2026-caio-oliveira`) | ✅ commitado · ⏳ push pendente (`PUBLICAR.md`) |
+| Repositório público | este repo (`jt2026-caio-oliveira`) | ✅ commitado · push concluído (`PUBLICAR.md`) |
 | `relatorio.md` com a recomendação + posição sobre a tese | raiz | ✅ |
-| `ai-log/` com as conversas de IA em texto | `ai-log/` | ✅ completo (sessão inteira, 170 msgs) |
+| `ai-log/` com as conversas de IA em texto | `ai-log/` | ✅ completo (sessão inteira, 232 msgs) |
 | Vídeo (3 min) | Google Drive (link na 1ª linha do README) | ⏳ pendente — roteiro: `roteiro-video.md` |
 | Apoio visual do vídeo | `output/apresentacao_apoio_video.pptx` | ✅ |
 

@@ -13,9 +13,9 @@ Gerado em: (automático) · ferramenta: opencode
 | 5 | Recomendação com NÚMEROS vindos dos dados (não tolice) | [ OK ]  |
 | 6 | Definiu formalmente melhor/perfil/localização | [ OK ]  |
 | 7 | ai-log/ com conversa completa (md+json, >100KB) — processo visível | [ OK ]  |
-| 8 | ai-log/ com logs por fase (9 fases registradas) | [ OK ]  |
+| 8 | ai-log/ com logs por fase (11 fases registradas) | [ OK ]  |
 | 9 | Código reexecutável: 9 módulos em src/ + requirements.txt | [ OK ]  |
-| 10 | Outputs organizados em output/ (38 arquivos) | [ OK ]  |
+| 10 | Outputs organizados em output/ (41 arquivos) | [ OK ]  |
 
 ## Resumo
 
