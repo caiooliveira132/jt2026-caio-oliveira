@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Ambiente
+.env
+*.local
+
+# Dados brutos (não commitar o repositório de dados clonado)
+jovens-talentos-2026-hackathon-data/
+
+# Export da sessão completo é grande mas é entregável — manter commitado
+# (comentado para não excluir acidentalmente)

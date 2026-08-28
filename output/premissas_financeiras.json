@@ -1,0 +1,107 @@
+{
+  "itbi_registro_pct": {
+    "valor": 0.035,
+    "fonte": "Mercado SC: ITBI ~3% + registro ~0,5% (fonte: tabela municipal Itapema / prática notarial)",
+    "unidade": "% do preço de compra"
+  },
+  "reforma_mobilia_pct": {
+    "valor": 0.08,
+    "fonte": "Suposição: mobiliar/equipar apto para short stay (mercado Itapema; validar com orçamento)",
+    "unidade": "% do preço de compra"
+  },
+  "capital_giro_meses_A": {
+    "valor": 3.0,
+    "fonte": "Suposição de prudência: 3 meses de custo operacional até estabilização",
+    "unidade": "meses"
+  },
+  "captacao_por_unidade": {
+    "valor": 40000.0,
+    "fonte": "Suposição de originação: prospecção, contrato e comissão de captação de proprietário (calibrar com comercial Seazone)",
+    "unidade": "R$/unidade"
+  },
+  "mkt_to_producao_ratio": {
+    "valor": 0.75,
+    "fonte": "Custo de PRODUÇÃO all-in (terreno + obra + projeto + incorporação) ≈ 75% do preço de revenda observado por m² no bairro. Captura a margem/dev markup que se paga ao comprar pronto; construir = capturar esse delta. Validar com VGV/planilha de incorporação na Fase 6.",
+    "unidade": "taxa sobre revenda m²"
+  },
+  "projeto_permutas_pct_obra": {
+    "valor": 0.1,
+    "fonte": "Suposição: projeto arquitetônico/estrutural, licenciamento e permutas = 10% do custo de obra",
+    "unidade": "% da obra"
+  },
+  "marketing_pre_venda_pct_obra": {
+    "valor": 0.04,
+    "fonte": "Suposição: marketing/incorporação de pré-venda = 4% da obra",
+    "unidade": "% da obra"
+  },
+  "contingencia_pct_obra": {
+    "valor": 0.08,
+    "fonte": "Suposição: contingência de obra/repasses = 8% da obra",
+    "unidade": "% da obra"
+  },
+  "capital_giro_meses_B": {
+    "valor": 6.0,
+    "fonte": "Suposição de prudência: 6 meses de custo operacional até estabilização (prazo de obra maior)",
+    "unidade": "meses"
+  },
+  "taxa_gestao_seazone": {
+    "valor": 0.2,
+    "fonte": "Padrão de mercado gerenciadora short stay (20-30%); a confirmar com comercial Seazone",
+    "unidade": "% da receita bruta"
+  },
+  "taxa_canais": {
+    "valor": 0.1,
+    "fonte": "Suposição: comissões de distribuição em múltiplos canais (Airbnb/Vrbo/OTA) diluídas",
+    "unidade": "% da receita bruta"
+  },
+  "custo_limpeza_por_virada": {
+    "valor": 130.0,
+    "fonte": "Mercado Itapema: diária de profissional de limpeza + insumos base (cleaning_fee mediano anunciado R$250 cobre mais que o custo real)",
+    "unidade": "R$/virada"
+  },
+  "consumiveis_por_diaria": {
+    "valor": 18.0,
+    "fonte": "Suposição: consumíveis/amenities por diária ocupada (amaciante, papel, café, reposição)",
+    "unidade": "R$/diária ocupada"
+  },
+  "estada_media_noites": {
+    "valor": 4.0,
+    "fonte": "Suposição de estada média curta temporada litoral catarinense (3-5 noites)",
+    "unidade": "noites/turnover"
+  },
+  "manutencao_pct_ano_pronto": {
+    "valor": 0.015,
+    "fonte": "Suposição conservadora: manutenção anual imóvel usado = 1,5% do preço de compra",
+    "unidade": "% do preço/ano"
+  },
+  "manutencao_pct_ano_novo": {
+    "valor": 0.007,
+    "fonte": "Suposição: imóvel novo tem manutenção menor = 0,7% do custo de obra (vantagem do cenário B)",
+    "unidade": "% do custo obra/ano"
+  },
+  "energia_internet_mensal": {
+    "valor": 380.0,
+    "fonte": "Suposição: energia (clima praia) + internet em curta temporada, média anual",
+    "unidade": "R$/mês"
+  },
+  "seguros_pct_ano": {
+    "valor": 0.003,
+    "fonte": "Mercado seguradoras: seguro residencial locação temporária ≈ 0,3% do valor por ano",
+    "unidade": "% do valor/ano"
+  },
+  "cv_preco_diaria": {
+    "valor": 0.25,
+    "fonte": "Placeholder: volatilidade da diária; será calibrada por bairro/perfil na Fase 3 com Price_AV",
+    "unidade": "desvio/média"
+  },
+  "cv_ocupacao": {
+    "valor": 0.35,
+    "fonte": "Placeholder: sazonalidade da ocupação; será calibrada na Fase 3",
+    "unidade": "desvio/média"
+  },
+  "occ_base_exemplo": {
+    "valor": 0.3,
+    "fonte": "Cenário base para exemplo da máquina; ocupação real por bairro/perfil virá da Fase 3 (proxy observado 0.17 = piso pessimista)",
+    "unidade": "taxa anual"
+  }
+}

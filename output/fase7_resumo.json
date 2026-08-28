@@ -1,0 +1,42 @@
+{
+  "morretes_pronto": {
+    "base": {
+      "ocupacao_usada": 0.3,
+      "receita_bruta": 45442.0,
+      "noi": 2404.0,
+      "yield_liquido": 0.0033
+    },
+    "otimista": {
+      "ocupacao_usada": 0.48,
+      "receita_bruta": 88704.0,
+      "noi": 29370.0,
+      "yield_liquido": 0.0402
+    },
+    "pessimista": {
+      "ocupacao_usada": 0.12,
+      "receita_bruta": 14178.0,
+      "noi": -16162.0,
+      "yield_liquido": -0.0223
+    }
+  },
+  "morretes_novo": {
+    "base": {
+      "ocupacao_usada": 0.33,
+      "receita_bruta": 53986.0,
+      "noi": 14579.0,
+      "yield_liquido": 0.0225
+    },
+    "otimista": {
+      "ocupacao_usada": 0.528,
+      "receita_bruta": 105380.0,
+      "noi": 46905.0,
+      "yield_liquido": 0.0714
+    },
+    "pessimista": {
+      "ocupacao_usada": 0.132,
+      "receita_bruta": 16844.0,
+      "noi": -7771.0,
+      "yield_liquido": -0.0121
+    }
+  }
+}

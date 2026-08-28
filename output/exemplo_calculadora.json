@@ -1,0 +1,236 @@
+{
+  "exemplo": {
+    "A_compra_pronto": {
+      "base": {
+        "cenario": "base",
+        "ativo": "Apto 1q Meia Praia (pronto)",
+        "diaria_usada": 460.0,
+        "ocupacao_usada": 0.3,
+        "dias_ocupados": 110.0,
+        "receita_bruta": 50370.0,
+        "custos_operacao": {
+          "limpeza": 3559.0,
+          "consumiveis": 1971.0,
+          "energia_internet": 4560.0,
+          "manutencao": 13244.0,
+          "seguros": 2649.0,
+          "condominio": 6600.0,
+          "iptu": 1150.0,
+          "gestao_seazone": 10074.0,
+          "canais_distribuicao": 5037.0,
+          "total": 48843.0
+        },
+        "noi": 1527.0,
+        "investimento": {
+          "preco_compra": 882915.0,
+          "itbi_registro": 30902.0,
+          "reforma_mobilia": 70633.0,
+          "capital_giro": 12211.0,
+          "total": 996661.0
+        },
+        "yield_liquido": 0.0015,
+        "cap_rate": 0.0017,
+        "payback_anos": 652.69,
+        "margem_operacional": 0.0303,
+        "cv_ocupacao_usada": 0.35
+      },
+      "otimista": {
+        "cenario": "otimista",
+        "ativo": "Apto 1q Meia Praia (pronto)",
+        "diaria_usada": 575.0,
+        "ocupacao_usada": 0.405,
+        "dias_ocupados": 148.0,
+        "receita_bruta": 84999.0,
+        "custos_operacao": {
+          "limpeza": 4804.0,
+          "consumiveis": 2661.0,
+          "energia_internet": 4560.0,
+          "manutencao": 13244.0,
+          "seguros": 2649.0,
+          "condominio": 6600.0,
+          "iptu": 1150.0,
+          "gestao_seazone": 17000.0,
+          "canais_distribuicao": 8500.0,
+          "total": 61167.0
+        },
+        "noi": 23832.0,
+        "investimento": {
+          "preco_compra": 882915.0,
+          "itbi_registro": 30902.0,
+          "reforma_mobilia": 70633.0,
+          "capital_giro": 15292.0,
+          "total": 999742.0
+        },
+        "yield_liquido": 0.0238,
+        "cap_rate": 0.027,
+        "payback_anos": 41.95,
+        "margem_operacional": 0.2804,
+        "cv_ocupacao_usada": 0.35
+      },
+      "pessimista": {
+        "cenario": "pessimista",
+        "ativo": "Apto 1q Meia Praia (pronto)",
+        "diaria_usada": 345.0,
+        "ocupacao_usada": 0.195,
+        "dias_ocupados": 71.0,
+        "receita_bruta": 24555.0,
+        "custos_operacao": {
+          "limpeza": 2313.0,
+          "consumiveis": 1281.0,
+          "energia_internet": 4560.0,
+          "manutencao": 13244.0,
+          "seguros": 2649.0,
+          "condominio": 6600.0,
+          "iptu": 1150.0,
+          "gestao_seazone": 4911.0,
+          "canais_distribuicao": 2456.0,
+          "total": 39163.0
+        },
+        "noi": -14608.0,
+        "investimento": {
+          "preco_compra": 882915.0,
+          "itbi_registro": 30902.0,
+          "reforma_mobilia": 70633.0,
+          "capital_giro": 9791.0,
+          "total": 994241.0
+        },
+        "yield_liquido": -0.0147,
+        "cap_rate": -0.0165,
+        "payback_anos": null,
+        "margem_operacional": -0.5949,
+        "cv_ocupacao_usada": 0.35
+      }
+    },
+    "B_lancamento_obra": {
+      "base": {
+        "cenario": "base",
+        "ativo": "Apto 1q Meia Praia (lançamento)",
+        "diaria_usada": 460.0,
+        "ocupacao_usada": 0.3,
+        "dias_ocupados": 110.0,
+        "receita_bruta": 50370.0,
+        "custos_operacao": {
+          "limpeza": 3559.0,
+          "consumiveis": 1971.0,
+          "energia_internet": 4560.0,
+          "manutencao": 4635.0,
+          "seguros": 1987.0,
+          "condominio": 6600.0,
+          "iptu": 1150.0,
+          "gestao_seazone": 10074.0,
+          "canais_distribuicao": 5037.0,
+          "total": 39573.0
+        },
+        "noi": 10797.0,
+        "investimento": {
+          "captacao_proprietarios": 40000.0,
+          "custo_obra": 662186.0,
+          "projeto_permutas": 66219.0,
+          "marketing_pre_venda": 26487.0,
+          "contingencia": 52975.0,
+          "capital_giro": 19786.0,
+          "total": 867654.0
+        },
+        "yield_liquido": 0.0124,
+        "cap_rate": 0.0163,
+        "payback_anos": 80.36,
+        "margem_operacional": 0.2144,
+        "cv_ocupacao_usada": 0.35
+      },
+      "otimista": {
+        "cenario": "otimista",
+        "ativo": "Apto 1q Meia Praia (lançamento)",
+        "diaria_usada": 575.0,
+        "ocupacao_usada": 0.405,
+        "dias_ocupados": 148.0,
+        "receita_bruta": 84999.0,
+        "custos_operacao": {
+          "limpeza": 4804.0,
+          "consumiveis": 2661.0,
+          "energia_internet": 4560.0,
+          "manutencao": 4635.0,
+          "seguros": 1987.0,
+          "condominio": 6600.0,
+          "iptu": 1150.0,
+          "gestao_seazone": 17000.0,
+          "canais_distribuicao": 8500.0,
+          "total": 51897.0
+        },
+        "noi": 33102.0,
+        "investimento": {
+          "captacao_proprietarios": 40000.0,
+          "custo_obra": 662186.0,
+          "projeto_permutas": 66219.0,
+          "marketing_pre_venda": 26487.0,
+          "contingencia": 52975.0,
+          "capital_giro": 25948.0,
+          "total": 873816.0
+        },
+        "yield_liquido": 0.0379,
+        "cap_rate": 0.05,
+        "payback_anos": 26.4,
+        "margem_operacional": 0.3894,
+        "cv_ocupacao_usada": 0.35
+      },
+      "pessimista": {
+        "cenario": "pessimista",
+        "ativo": "Apto 1q Meia Praia (lançamento)",
+        "diaria_usada": 345.0,
+        "ocupacao_usada": 0.195,
+        "dias_ocupados": 71.0,
+        "receita_bruta": 24555.0,
+        "custos_operacao": {
+          "limpeza": 2313.0,
+          "consumiveis": 1281.0,
+          "energia_internet": 4560.0,
+          "manutencao": 4635.0,
+          "seguros": 1987.0,
+          "condominio": 6600.0,
+          "iptu": 1150.0,
+          "gestao_seazone": 4911.0,
+          "canais_distribuicao": 2456.0,
+          "total": 29893.0
+        },
+        "noi": -5338.0,
+        "investimento": {
+          "captacao_proprietarios": 40000.0,
+          "custo_obra": 662186.0,
+          "projeto_permutas": 66219.0,
+          "marketing_pre_venda": 26487.0,
+          "contingencia": 52975.0,
+          "capital_giro": 14946.0,
+          "total": 862814.0
+        },
+        "yield_liquido": -0.0062,
+        "cap_rate": -0.0081,
+        "payback_anos": null,
+        "margem_operacional": -0.2174,
+        "cv_ocupacao_usada": 0.35
+      }
+    }
+  },
+  "premissas_usadas": {
+    "itbi_registro_pct": 0.035,
+    "reforma_mobilia_pct": 0.08,
+    "capital_giro_meses_A": 3.0,
+    "captacao_por_unidade": 40000.0,
+    "mkt_to_producao_ratio": 0.75,
+    "projeto_permutas_pct_obra": 0.1,
+    "marketing_pre_venda_pct_obra": 0.04,
+    "contingencia_pct_obra": 0.08,
+    "capital_giro_meses_B": 6.0,
+    "taxa_gestao_seazone": 0.2,
+    "taxa_canais": 0.1,
+    "custo_limpeza_por_virada": 130.0,
+    "consumiveis_por_diaria": 18.0,
+    "estada_media_noites": 4.0,
+    "manutencao_pct_ano_pronto": 0.015,
+    "manutencao_pct_ano_novo": 0.007,
+    "energia_internet_mensal": 380.0,
+    "seguros_pct_ano": 0.003,
+    "cv_preco_diaria": 0.25,
+    "cv_ocupacao": 0.35,
+    "occ_base_exemplo": 0.3
+  },
+  "nota_metodologica": "O custo de produção (cenário B) é estimado como 75% do preço de revenda por m² do bairro (mkt_to_producao_ratio), capturando a margem de desenvolvedor evitada. A validação com orçamento/planilha de incorporação real é prevista na Fase 6."
+}

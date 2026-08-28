@@ -1,0 +1,110 @@
+[
+  {
+    "arquivo": "Details",
+    "acao": "drop_duplicates",
+    "motivo": "listing_id duplicado",
+    "qtd_afetada": 0
+  },
+  {
+    "arquivo": "Details",
+    "acao": "recode",
+    "motivo": "star_rating==0 => sem avaliação (vira NaN)",
+    "qtd_afetada": 1540
+  },
+  {
+    "arquivo": "Details",
+    "acao": "fillna",
+    "motivo": "flags binárias com null tratado como False + coluna _missing",
+    "qtd_afetada": 355
+  },
+  {
+    "arquivo": "Details",
+    "acao": "drop_coluna",
+    "motivo": "min_nights 100% zero (coluna morta)",
+    "qtd_afetada": 4441
+  },
+  {
+    "arquivo": "Hosts",
+    "acao": "drop_duplicates",
+    "motivo": "owner_id duplicado",
+    "qtd_afetada": 1383
+  },
+  {
+    "arquivo": "Hosts",
+    "acao": "drop_coluna",
+    "motivo": "response_rate/time 100% nulos (sem informação)",
+    "qtd_afetada": 2
+  },
+  {
+    "arquivo": "Mesh",
+    "acao": "recode",
+    "motivo": "bairro 'none'->NaN; 5 registros sem bairro (mantidos)",
+    "qtd_afetada": 5
+  },
+  {
+    "arquivo": "Price_AV",
+    "acao": "drop_duplicates",
+    "motivo": "mesmo (listing,data) capturado N vezes -> mantém captura mais recente",
+    "qtd_afetada": 59799
+  },
+  {
+    "arquivo": "Price_AV",
+    "acao": "dropna",
+    "motivo": "price nulo",
+    "qtd_afetada": 0
+  },
+  {
+    "arquivo": "Price_AV",
+    "acao": "flag",
+    "motivo": "price>3000 sinalizado como outlier a revisar (não exclui)",
+    "qtd_afetada": 390
+  },
+  {
+    "arquivo": "VivaReal",
+    "acao": "drop_duplicates",
+    "motivo": "listing_id duplicado: mantém anúncio mais recente",
+    "qtd_afetada": 36
+  },
+  {
+    "arquivo": "VivaReal",
+    "acao": "flag",
+    "motivo": "suburb nulo (anúncios sem bairro) mantidos como NaN",
+    "qtd_afetada": 98
+  },
+  {
+    "arquivo": "VivaReal",
+    "acao": "recode",
+    "motivo": "usable_area==0 -> NaN (sem área declarada)",
+    "qtd_afetada": 11
+  },
+  {
+    "arquivo": "VivaReal",
+    "acao": "flag",
+    "motivo": "outliers extremos sinalizados (m2>2000, condominio>50k, IPTU>100k, quartos>6) p/ revisão na Fase 2",
+    "qtd_afetada": 48
+  },
+  {
+    "arquivo": "VivaReal",
+    "acao": "flag",
+    "motivo": "terreno/comercial/outros marcados fora do alvo short stay (não excluídos)",
+    "qtd_afetada": 249
+  },
+  {
+    "arquivo": "Join",
+    "acao": "info",
+    "motivo": "listings sem bairro (Mesh)",
+    "qtd_afetada": 0
+  },
+  {
+    "arquivo": "Join",
+    "acao": "info",
+    "motivo": "listings SEM preço (Price_AV) -> NaN e flag_sem_preco",
+    "qtd_afetada": 3442
+  },
+  {
+    "arquivo": "Join",
+    "acao": "info",
+    "motivo": "base_analise final: 4441 listings; sem preço=3442; sem bairro=5",
+    "qtd_afetada": 0
+  }
+]

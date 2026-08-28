@@ -1,0 +1,7 @@
+id,nome,n,area_m2,preco_compra_ref,diaria_med,occ_base,cv_occ,receita_mensal_med,noi_base,yield_base,invest_total,payback_base
+tese_compacto_centro,TESE: compacto (studio/1q) no Centro,118,55.0,923821.0,445.0,0.176,0.718,2258.0,-10867.0,-0.0104,1039936.0,
+a_compacto_fora_centro,CONTRAFATO (a): compacto fora do Centro,144,55.0,882914.0,401.0,0.153,1.057,1938.0,-14143.0,-0.0142,993585.0,
+b_maior_no_centro,CONTRAFATO (b): maior (2q/3q+) no Centro,430,130.0,2183576.0,650.0,0.14,0.989,2485.0,-30944.0,-0.0126,2450727.0,
+c_maior_fora_centro,CONTRAFATO (c): maior (2q/3q+) fora do Centro,2960,130.0,2086887.0,590.0,0.18,0.876,3065.0,-26091.0,-0.0111,2343079.0,
+compacto_meia_praia,Apoio: compacto em Meia Praia,110,55.0,882914.0,441.0,0.16,0.989,2056.0,-11893.0,-0.012,993864.0,
+compacto_morretes,Apoio: compacto em Morretes,17,48.0,560755.0,415.0,0.238,1.074,1953.0,-58.0,-0.0001,634275.0,

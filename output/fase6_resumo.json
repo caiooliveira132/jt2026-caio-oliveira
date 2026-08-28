@@ -1,0 +1,51 @@
+{
+  "bairro": "Meia Praia",
+  "m2_referencia": 16053.0,
+  "diaria_operacional": 441.0,
+  "ocupacao_alvo": 0.3,
+  "invest_A": 996504.75,
+  "invest_B": 805758.5,
+  "noiA_pleno": 70.5,
+  "noiB_pleno": 15142.926000000007,
+  "noiA_pleno_bruto": 70.5,
+  "serie_A": [
+    56.400000000000006,
+    70.5,
+    70.5,
+    70.5,
+    70.5
+  ],
+  "serie_B": [
+    0.0,
+    5300.024100000002,
+    15142.926000000007,
+    15142.926000000007,
+    15142.926000000007
+  ],
+  "soma_NOI_A": 338.4,
+  "soma_NOI_B": 50728.80210000002,
+  "yield_A_5y": 0.0003395869412564265,
+  "yield_B_5y": 0.06295782433570359,
+  "payback_A": 14134.81914893617,
+  "payback_B": 53.210225025203165,
+  "custos_op_anual": 48219.0,
+  "detalhe_A": {
+    "preco_compra": 882915.0,
+    "itbi_registro": 30902.0,
+    "mobilia_equipamento": 70633.0,
+    "preco_itbi_mob": 984450.0
+  },
+  "detalhe_B": {
+    "obra_allin_producao": 662186.0,
+    "captacao_proprietario": 40000.0,
+    "marketing_pre_venda": 26487.0,
+    "contingencia_obra": 52975.0,
+    "total_sem_giro": 781649.0
+  },
+  "giro_A": 12054.75,
+  "giro_B": 24109.5,
+  "bairro_pref": "Morretes/Meia Praia",
+  "tese": true,
+  "soma_NOI_A_Morretes": 11542.0,
+  "invest_A_Morretes": 727158.0
+}

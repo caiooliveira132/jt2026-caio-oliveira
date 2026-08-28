@@ -1,0 +1,99 @@
+{
+  "fase": "fase0",
+  "conceitos": {
+    "melhor": "Maximizar o Yield Líquido Anual (NOI / Investimento Total), com consistência temporal de ocupação e atratividade de clientes como filtros obrigatórios. 'Melhor' NÃO é maior receita absoluta: é lucratividade sistemática e racional no longo prazo, avaliada nos eixos preço de aquisição, preço de aluguel, volatilidade e custo de operação.",
+    "perfil": "Configuração descritiva do ativo: tipologia (apartamento/casa/studio), número de quartos, tipo de anúncio (inteiro vs. privado/compartilhado) e comodidades ameinities. O melhor perfil é a combinação que maximiza o critério-mestre no melhor local, com foco em lucro de longo prazo, retenção e volume de clientes.",
+    "localizacao": "Nível de bairro (e grade/mesh quando os dados permitirem), medido pela receita média por noite x ocupação, ponderada por consistência (baixo desvio-padrão) e pelo preço de aquisição da região (VivaReal). Melhor localização = maior yield líquido, não maior receita bruta.",
+    "escopo_execucao": "A recomendação cobre dois cenários de execução: (A) compra de imóvel pronto e (B) lançamento/construção de novo prédio (captação de proprietários + custos de obra), ambos com custo de operação estimado — pois a Seazone origina prédios e capta proprietários, e a decisão de investimento inclui COMO executar."
+  },
+  "criterio_mestre": "yield_liquido_anual",
+  "metricas_suporte": [
+    "payback_simples",
+    "consistencia_ocupacao"
+  ],
+  "eixos_de_negocio": [
+    "preco_aquisicao",
+    "preco_aluguel",
+    "volatilidade",
+    "custo_operacao"
+  ],
+  "cenarios_execucao": [
+    {
+      "id": "A",
+      "nome": "COMPRA_PRONTO"
+    },
+    {
+      "id": "B",
+      "nome": "LANCAMENTO_CONSTRUCAO"
+    }
+  ],
+  "perguntas": [
+    {
+      "id": "RQ1",
+      "pergunta": "Qual perfil de imovel maximiza o criterio-mestre em Itapema (tipologia x quartos x tipo de anuncio x comodidades)?",
+      "fontes": [
+        "details",
+        "price",
+        "vivareal"
+      ],
+      "formato_resposta": "1 perfil vencedor + 2 alternativos, com yield/payback/CV",
+      "hipotese_preliminar": "Grupos compactos (studio/1-2 quartos), anuncio inteiro; vista/cenario como diferenciais de preco. NAO assumir: medir.",
+      "metodo_validacao": "Matriz perfil x yield; controlar por host profissional"
+    },
+    {
+      "id": "RQ2",
+      "pergunta": "Qual localizacao (bairro) maximiza o criterio-mestre - e nao apenas a receita?",
+      "fontes": [
+        "mesh",
+        "price",
+        "vivareal"
+      ],
+      "formato_resposta": "Ranking de bairros por yield liquido ajustado por volatilidade + N por bairro",
+      "hipotese_preliminar": "Bairros de frente-mar com bom preco/m2 no VivaReal; suspeita de receita alta diferente de retorno alto - abrir a caixa-preta.",
+      "metodo_validacao": "Boxplot receita x CV por bairro; yield = NOI/preco de compra por bairro"
+    },
+    {
+      "id": "RQ3",
+      "pergunta": "Quais caracteristicas mais explicam a variacao das receitas (host, amenities, quartos, avaliacoes)?",
+      "fontes": [
+        "details",
+        "hosts"
+      ],
+      "formato_resposta": "Ranking de coeficientes (contribuicao % na receita)",
+      "hipotese_preliminar": "Superhost, n de reviews e presenca de vista/amenidades movem receita mais que quartos; controlar confusao com host profissional.",
+      "metodo_validacao": "Regressao simples + interpretacao em termos de negocio"
+    },
+    {
+      "id": "RQ4",
+      "pergunta": "O que comprar hoje, quanto custa e qual o retorno estimado (cenario A pronto x cenario B lancamento)?",
+      "fontes": [
+        "vivareal",
+        "price",
+        "realistic_assumptions"
+      ],
+      "formato_resposta": "Especificacao do ativo + tabela NOI/yield/payback em 3 cenarios",
+      "hipotese_preliminar": "1 ativo concreto no melhor bairro (ex.: apto 1 quarto com vista); comparar A vs B em horizonte de 5 anos.",
+      "metodo_validacao": "Toda linha da tabela com premissa justificada em mercado"
+    },
+    {
+      "id": "RQ5",
+      "pergunta": "A tese dos compactos no Centro se sustenta nos dados?",
+      "fontes": [
+        "details",
+        "mesh",
+        "price",
+        "vivareal"
+      ],
+      "formato_resposta": "Veredito: sustenta / nao sustenta / sustenta parcialmente + numeros",
+      "hipotese_preliminar": "Suspeita de 'sustenta parcialmente': Centro pode ganhar em preco/ocupacao, mas perder em retorno comparado a um bairro alternativo de maior yield.",
+      "metodo_validacao": "Grupo compacto-Centro vs. 3 contrafactuals da Fase 5"
+    }
+  ],
+  "formula_régua": {
+    "receita_bruta_anual": "preco_medio_noite * ocupacao_media * 365",
+    "noi": "receita_bruta - custo_fixo_anual - %gestao - %canais - limpeza",
+    "yield_liquido_anual": "noi / investimento_total",
+    "payback_simples": "investimento_total / noi_anual",
+    "consistencia": "cv(ocupacao) = pstdev/mean({diarias_ocupadas})"
+  }
+}
