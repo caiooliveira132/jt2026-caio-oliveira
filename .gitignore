@@ -9,7 +9,7 @@ venv/
 .env
 *.local
 
-# Dados brutos (não commitar o repositório de dados clonado)
+# Dados brutos (não commitar o repositório de dados clonado à parte)
 jovens-talentos-2026-hackathon-data/
 
 # Vídeo do desafio (entregável é o LINK no Drive, não o arquivo binário)

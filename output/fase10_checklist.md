@@ -7,7 +7,7 @@ Gerado em: (automático) · ferramenta: opencode
 | # | Regra (reprovação imediata se falhar) | Situação |
 |---|---|---|
 | 1 | Repositório git inicializado | [ OK ]  |
-| 2 | Remoto origin configurado (push manual pendente) | [PEND ] gh não instalado — ver PUBLICAR.md |
+| 2 | Remoto origin configurado (push manual pendente) | [ OK ]  |
 | 3 | Vídeo: link publicado na 1ª linha do README (Drive, sem login) | [ OK ]  |
 | 4 | relatorio.md responde as 4 perguntas + tese dos compactos | [ OK ]  |
 | 5 | Recomendação com NÚMEROS vindos dos dados (não tolice) | [ OK ]  |

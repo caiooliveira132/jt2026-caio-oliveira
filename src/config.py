@@ -1,7 +1,13 @@
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA_DIR = ROOT.parent / "jovens-talentos-2026-hackathon-data" / "data"
+
+# Dados: preferência à pasta local `data/` (repo autocontido).
+# Fallback: clone irmão `../jovens-talentos-2026-hackathon-data/data`.
+_LOCAL_DATA = ROOT / "data"
+_SIBLING_DATA = ROOT.parent / "jovens-talentos-2026-hackathon-data" / "data"
+
+DATA_DIR = _LOCAL_DATA if (_LOCAL_DATA / "Details_Itapema.csv").exists() else _SIBLING_DATA
 
 RAW_FILES = {
     "details": DATA_DIR / "Details_Itapema.csv",

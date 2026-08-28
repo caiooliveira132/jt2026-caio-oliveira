@@ -17,7 +17,7 @@ Desafio Jovens Talentos AI Builder 2026.
 
 ```
 src/                       # código Python reexecutável (Fases 0-10)
-  config.py                # caminhos para os dados (../jovens-talentos-2026-hackathon-data/data/)
+  config.py                # caminhos para os dados (prefere data/ local; fallback no clone)
   fase0_definitions.py     # Fase 0: definições + critério-mestre + 5 perguntas
   fase1_ingestion.py       # Fase 1: ingesta/saneamento/junção dos 5 CSVs -> base_analise
   fase2_financeiro.py      # Fase 2: régua financeira (cenários A/B, premissas justificadas)
@@ -35,6 +35,7 @@ ai-log/                    # conversas de IA exportadas (processo = 30% da nota)
   saneamento.md            #   registro de saneamento
 relatorio.md               # RECOMENDAÇÃO FINAL
 requirements.txt           # dependências
+data/                      # dados brutos (5 CSVs) — repo autocontido
 roteiro-video.md           # teleprompter do vídeo (3 min, palavra por palavra)
 apresentacao_apoio_video.pptx  # apoio visual (na pasta output/)
 PUBLICAR.md                # passo a passo para criar repo público + push
@@ -66,4 +67,4 @@ python -m src.gerar_apresentacao  # regenera o pptx de apoio ao vídeo
 | Vídeo (3 min) | Google Drive (link na 1ª linha do README) | ✅ pendente — roteiro: `roteiro-video.md` |
 | Apoio visual do vídeo | `output/apresentacao_apoio_video.pptx` | ✅ |
 
-Os dados brutos vivem em `../jovens-talentos-2026-hackathon-data/data/` (repo clonado à parte; o caminho é configurável em `src/config.py`).
+Os dados brutos estão **incluídos neste repositório** em `data/` (5 CSVs) — o repo é autocontido e reprodutível. Caso a pasta local não exista, o `config.py` cai num fallback para o clone irmão `../jovens-talentos-2026-hackathon-data/data/`.
