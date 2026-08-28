@@ -1,4 +1,4 @@
-**Vídeo (3 min): [link Google Drive — colocar aqui, compartilhamento "qualquer pessoa com o link"]**
+**Vídeo (3 min): [Google Drive](https://drive.google.com/file/d/1SYOkXpITNIz9YnpqL8o3qAaENeqXUPb1/view?usp=sharing)**
 
 # jt2026-caio-oliveira
 

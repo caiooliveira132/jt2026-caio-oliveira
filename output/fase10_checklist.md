@@ -8,7 +8,7 @@ Gerado em: (automático) · ferramenta: opencode
 |---|---|---|
 | 1 | Repositório git inicializado | [ OK ]  |
 | 2 | Remoto origin configurado (push manual pendente) | [PEND ] gh não instalado — ver PUBLICAR.md |
-| 3 | Vídeo: link publicado na 1ª linha do README (Drive, sem login) | [FALHA] AÇÃO PENDENTE: gravar/subir vídeo e colar o link (roteiro-video.md) — regra de reprovação |
+| 3 | Vídeo: link publicado na 1ª linha do README (Drive, sem login) | [ OK ]  |
 | 4 | relatorio.md responde as 4 perguntas + tese dos compactos | [ OK ]  |
 | 5 | Recomendação com NÚMEROS vindos dos dados (não tolice) | [ OK ]  |
 | 6 | Definiu formalmente melhor/perfil/localização | [ OK ]  |
@@ -19,10 +19,7 @@ Gerado em: (automático) · ferramenta: opencode
 
 ## Resumo
 
-- Regras reprobatórias atendidas: **9/10**.
-
-### Pendências que podem reprovar (ação obrigatória):
-- **Vídeo: link publicado na 1ª linha do README (Drive, sem login)** — AÇÃO PENDENTE: gravar/subir vídeo e colar o link (roteiro-video.md) — regra de reprovação
+- Regras reprobatórias atendidas: **10/10**.
 
 ## Próximos passos automáticos para o participante
 1. Gravar/subir o vídeo no Drive ('qualquer pessoa com o link') e colar o link na 1ª linha do README.
