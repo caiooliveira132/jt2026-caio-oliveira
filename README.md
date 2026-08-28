@@ -34,6 +34,7 @@ ai-log/                    # conversas de IA exportadas (processo = 30% da nota)
   sessao-completa/         #   export integral da sessão (md + json)
   fase0..10.md           #   registro do processo por fase
   saneamento.md            #   registro de saneamento
+  transcricao.md           #   registro da transcrição do vídeo
 relatorio.md               # RECOMENDAÇÃO FINAL
 requirements.txt           # dependências
 data/                      # dados brutos (5 CSVs) — repo autocontido
