@@ -64,7 +64,7 @@ python -m src.gerar_apresentacao  # regenera o pptx de apoio ao vídeo
 | Repositório público | este repo (`jt2026-caio-oliveira`) | ✅ commitado · push concluído (`PUBLICAR.md`) |
 | `relatorio.md` com a recomendação + posição sobre a tese | raiz | ✅ |
 | `ai-log/` com as conversas de IA em texto | `ai-log/` | ✅ completo (sessão inteira, 232 msgs) |
-| Vídeo (3 min) | Google Drive (link na 1ª linha do README) | ✅ pendente — roteiro: `roteiro-video.md` |
+| Vídeo (3 min) | Google Drive (link na 1ª linha do README) | ✅ vídeo gravado; faltou só revalidar link genérico |
 | Apoio visual do vídeo | `output/apresentacao_apoio_video.pptx` | ✅ |
 
 Os dados brutos estão **incluídos neste repositório** em `data/` (5 CSVs) — o repo é autocontido e reprodutível. Caso a pasta local não exista, o `config.py` cai num fallback para o clone irmão `../jovens-talentos-2026-hackathon-data/data/`.
