@@ -6,7 +6,7 @@ Esta pasta é o registro de como a IA foi usada no desafio (30% da avaliação).
 
 | Arquivo | O que é |
 |---|---|
-| `sessao-completa/sessao_desafio.md` | **Conversa inteira** com a IA (232 mensagens, toda a jornada do desafio), exportada via `opencode export`, em formato de leitura humana. |
+| `sessao-completa/sessao_desafio.md` | **Conversa inteira** com a IA (368 mensagens, toda a jornada do desafio), exportada via `opencode export`, em formato de leitura humana. |
 | `sessao-completa/sessao_desafio.json` | O mesmo export em JSON (formato original da ferramenta). |
 | `fase0.md` … `fase10.md` | Para cada fase, o que foi pedido, o que a IA devolveu, o que eu critiquei/corrigi e os números-chave. |
 | `transcricao.md` | Registro da transcrição do vídeo e das correções aplicadas. |

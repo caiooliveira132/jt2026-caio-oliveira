@@ -10,7 +10,7 @@ Desafio Jovens Talentos AI Builder 2026.
 ## Como avaliar em 2 cliques
 
 1. **`relatorio.md`** (raiz) — a recomendação final: as 4 perguntas do edital + veredito da tese dos compactos + estimativa de retorno, com números.
-2. **`ai-log/`** — o processo completo: 232 mensagens da sessão OpenCode exportadas em texto (`.md` + `.json`), mais o registro por fase (`fase0..10.md`).
+2. **`ai-log/`** — o processo completo: 368 mensagens da sessão OpenCode exportadas em texto (`.md` + `.json`), mais o registro por fase (`fase0..10.md`).
 3. **`output/apresentacao_apoio_video.pptx`** — a apresentação de apoio ao vídeo (9 slides, com os gráficos reais da análise).
 4. **`transcricao_video.md`** — transcrição completa do vídeo (faster-whisper).
 
@@ -66,7 +66,7 @@ python -m src.gerar_apresentacao  # regenera o pptx de apoio ao vídeo
 |---|---|---|
 | Repositório público | este repo (`jt2026-caio-oliveira`) | ✅ commitado · push concluído (`PUBLICAR.md`) |
 | `relatorio.md` com a recomendação + posição sobre a tese | raiz | ✅ |
-| `ai-log/` com as conversas de IA em texto | `ai-log/` | ✅ completo (sessão inteira, 232 msgs) |
+| `ai-log/` com as conversas de IA em texto | `ai-log/` | ✅ completo (sessão inteira, 368 msgs) |
 | Vídeo (3 min) | Google Drive (link na 1ª linha do README) | ✅ vídeo gravado; faltou só revalidar link genérico |
 | Apoio visual do vídeo | `output/apresentacao_apoio_video.pptx` | ✅ |
 

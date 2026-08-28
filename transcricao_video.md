@@ -4,13 +4,13 @@
 - Idioma detectado: pt (prob. 1.00)
 - Duração: 180.4s
 - Ferramenta: faster-whisper (modelo small, int8)
-- Nota: correções ortográficas aplicadas — "Carol Oliveira" → **Caio Oliveira**, "CSID/pela Seazone" → Seazone, "siaside" → short stay, "morrets" → Morretes.
+- Nota: correções ortográficas aplicadas — "Carol Oliveira" → **Caio Oliveira**, "CSID" → Seazone, "siaside" → **Seazone**, "morrets" → Morretes.
 
 ---
 
-[0000.3 → 0009.3]  Olá, tudo bem? Meu nome é Caio Oliveira, e hoje eu vim aqui apresentar toda a pesquisa que eu fiz sobre o investimento para short stay em Itapema, Santa Catarina.
+[0000.3 → 0009.3]  Olá, tudo bem? Meu nome é Caio Oliveira, e hoje eu vim aqui apresentar toda a pesquisa que eu fiz sobre o investimento para a Seazone em Itapema, Santa Catarina.
 
-[0009.3 → 0027.3]  Bom, os resultados e conclusões que eu cheguei. O investimento ideal é de 60,40. E quando eu falo de 60,40, é 60% investidos na construção de um imóvel que segue todos os padrões short stay de forma a garantir toda a questão da qualidade short stay
+[0009.3 → 0027.3]  Bom, os resultados e conclusões que eu cheguei. O investimento ideal é de 60,40. E quando eu falo de 60,40, é 60% investidos na construção de um imóvel que segue todos os padrões Seazone de forma a garantir toda a questão da qualidade Seazone
 
 [0027.3 → 0037.3]  e os outros 40% de investimento em imóveis já prontos para trazer velocidade para o investimento e segurança para a atuação e Itapema, Santa Catarina.
 

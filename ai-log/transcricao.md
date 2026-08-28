@@ -8,7 +8,8 @@ Sessão registrada: 2026-08-28 · Ferramenta: opencode (deepseek-v4-flash)
 - **Correções aplicadas** à transcrição:
   - "Carol Oliveira" → **Caio Oliveira** (nome correto do autor).
   - "CSID" → **Seazone** (erro de reconhecimento de fala em 2 ocorrências).
-  - "siaside" → **short stay** e "morrets" → **Morretes** (erros menores de fala).
+  - "siaside" → **Seazone** (nome da empresa falado no vídeo e transcrito erroneamente em 3 ocorrências: "investimento para a Seazone", "padrões Seazone", "qualidade Seazone").
+  - "morrets" → **Morretes** (erro menor de fala).
   - Registro das correções no cabeçalho do arquivo (transparência).
 - **Vídeo verificado** contra os 4 blocos exigidos pelo edital:
   1. Recomendação (60/40, compactos, Morretes/Meia Praia) — ok
